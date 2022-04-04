@@ -1,0 +1,29 @@
+:root {
+    --background: #d4d4c3;
+    --color1: #e999be;
+    --color2: #b45e86;
+    --color3: #b8a1ac;
+}
+
+html {
+    background-color: var(--background);
+    color: var(--color1);
+    overflow-x: hidden;
+
+}
+
+li {
+    margin: 5px;
+}
+
+a {
+    color: var(--color1);
+}
+
+a:visited {
+    color: var(--color3);
+}
+
+.header {
+    
+}
