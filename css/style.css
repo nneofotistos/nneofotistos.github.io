@@ -1,6 +1,6 @@
 :root {
-    --background: #d4d4c3;
-    --color1: #e999be;
+    --background: #dad9c5;
+    --color1: #e772a9;
     --color2: #b45e86;
     --color3: #b8a1ac;
 }
@@ -9,6 +9,7 @@ html {
     background-color: var(--background);
     color: var(--color1);
     overflow-x: hidden;
+    font-family: 'BIZ UDMincho', serif;
 
 }
 
@@ -24,6 +25,27 @@ a:visited {
     color: var(--color3);
 }
 
-.header {
-    
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    background-color: var(--color1);
+    color: var(--background);
+    padding: 20px;
+}
+
+body {
+    width: 100%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+}
+
+p {
+    text-align: center;
+    color: var(--color2);
 }
