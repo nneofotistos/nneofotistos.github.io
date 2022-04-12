@@ -13,8 +13,12 @@ html {
 
 }
 
-li {
-    margin: 5px;
+.menu-wrap {
+    text-align: left;
+}
+
+.menu-wrap ul {
+    display: inline-block;
 }
 
 a {
@@ -25,21 +29,11 @@ a:visited {
     color: var(--color3);
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 1%;
-}
-
-
 .title {
     background-color: var(--color1);
     color: var(--background);
     padding: 20px;
+    
 }
 
 .subtitle {
@@ -61,8 +55,17 @@ body {
 p {
     text-align: center;
     color: var(--color1);
+    line-height: 0.40in;
 }
 
 img {
+    height: 350px;
     width: 400px;
+    border-radius: 10%;
+    margin: 10px;
+}
+
+.about-me {
+    inline-size: 5in;
+    overflow-wrap: break-word;
 }
